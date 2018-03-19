@@ -1,11 +1,10 @@
-"use strict";
+'use strict';
 
-require("babel-register");
+require('babel-polyfill');
 
-require("babel-polyfill");
-
+var example = void 0;
 function allAdd() {
 	return Array.from(arguments).map(function (a) {
-		return a + 2;
+		a + 2;
 	});
 }
